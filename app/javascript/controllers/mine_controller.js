@@ -16,7 +16,7 @@ export default class extends Controller {
 
         init(this.playerID)
         .then(response => {
-            this.rubyCountTarget.innerHTML = `Rubies: ${getRubies(this.playerID)}`
+            this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies(this.playerID)}</strong>`
         });
     }
 
@@ -37,7 +37,7 @@ export default class extends Controller {
                 addRubies(this.playerID, 1)
                 .then(response => {
                     console.log("Got a ruby!!!");
-                    this.rubyCountTarget.textContent = `Rubies: ${getRubies(this.playerID)}`;
+                    this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies(this.playerID)}</strong>`;
                 });
             }
             else {

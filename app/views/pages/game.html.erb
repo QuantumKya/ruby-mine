@@ -1,12 +1,14 @@
 <%= stylesheet_link_tag 'mine', media: 'all' %>
 
-<a href="login.html">Login Page</a>
+<div id="shop" class="absolute h-[100vh] w-[400px] left-0 top-0
+        border-t-red-300 border-r-red-300 border-b-red-400 border-l-red-400 border-8 bg-radial-[at_70%_5%] from-red-300 to-red-400">
+    <p class="relative text-center text-5xl top-2.5"><strong>Shop</strong></p>
+</div>
 
-<div data-controller="mine">
-    <p id="ruby-count" data-mine-target="rubyCount" class="absolute right-4 top-4"></p>
+<div data-controller="mine" class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]">
+    <p id="ruby-count" data-mine-target="rubyCount" class="absolute top-full left-[50%] -translate-x-[50%] text-6xl text-center"></p>
 
-    <%= image_tag "ruby.png", alt: "Ruby", id: "ruby",
-        class: "absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]" %>
+    <%= image_tag "ruby.png", alt: "Ruby", id: "ruby" %>
 
     <div id="break-imgs" data-mine-target="breakImgs" class="">
         <%= image_tag "break/break0.png", alt: "Break", class: "break" %>
@@ -24,3 +26,5 @@
         action: "mousedown->mine#mine mouseenter->mine#hover mouseleave->mine#unhover" } %>
 
 </div>
+
+<!-- <a href="login.html">Login Page</a> -->
