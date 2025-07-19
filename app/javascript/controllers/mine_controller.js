@@ -14,8 +14,10 @@ export default class extends Controller {
 
         this.cssfmt = (a) => `translateX(80%) translateY(-250px) scale(2.5) scaleX(-1) rotate(${a}deg)`;
 
-        init(this.playerID);
-        this.rubyCountTarget.textContent = `Rubies: ${getRubies(this.playerID)}`;
+        init(this.playerID)
+        .then(response => {
+            this.rubyCountTarget.innerHTML = `Rubies: ${getRubies(this.playerID)}`
+        });
     }
 
     mine(event) {
@@ -32,9 +34,11 @@ export default class extends Controller {
             for (const child of this.breakImgsTarget.children) child.style.opacity = '0%';
             if (this.durability <= 0) {
                 this.durability = 8;
-                addRubies(this.playerID, 1);
-                console.log("Got a ruby!!!");
-                this.rubyCountTarget.textContent = `Rubies: ${getRubies(this.playerID)}`;
+                addRubies(this.playerID, 1)
+                .then(response => {
+                    console.log("Got a ruby!!!");
+                    this.rubyCountTarget.textContent = `Rubies: ${getRubies(this.playerID)}`;
+                });
             }
             else {
                 this.breakImgsTarget.children[Math.max(7 - this.durability, 0)].style.opacity = '100%';

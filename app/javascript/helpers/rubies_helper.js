@@ -7,18 +7,11 @@ export const init = async (playerID) => {
     .catch(error => console.error("Error while fetching initial ruby count: ", error));
 };
 
-export const getRubies = (playerID) => {
-    fetch(`api/players/${playerID}`)
-    .then(response => response.json())
-    .then(data => { totalRubies = data.rubies; console.log(totalRubies); })
-    .catch(error => console.error("Error while fetching ruby count: ", error));
+export const getRubies = () => totalRubies;
 
-    return totalRubies;
-};
-
-export const addRubies = (playerID, dr) => {
+export const addRubies = async (playerID, dr) => {
     totalRubies += dr;
-    fetch(`api/players/${playerID}`, {
+    return fetch(`api/players/${playerID}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json'},
         body: JSON.stringify({

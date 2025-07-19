@@ -7145,3 +7145,448 @@ Processing by Api::PlayersController#show as */*
 Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:06:15 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/assets/helpers/rubies_helper-2802b46e.js" for 127.0.0.1 at 2025-07-19 01:06:15 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:06:15 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:06:15 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:06:35 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/mine_controller-fbfa2f07.js" for 127.0.0.1 at 2025-07-19 01:06:35 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:06:35 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:06:35 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 37ms (Views: 0.2ms | ActiveRecord: 0.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mPlayer Load (8.8ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 11.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:07:09 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/helpers/rubies_helper-d81ad745.js" for 127.0.0.1 at 2025-07-19 01:07:09 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:07:09 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:07:09 -0500
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:07:36 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | GC: 3.3ms)
+Completed 200 OK in 12ms (Views: 5.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.3ms)
+
+
+Started GET "/assets/helpers/rubies_helper-6bef22c5.js" for 127.0.0.1 at 2025-07-19 01:07:36 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:07:36 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:07:36 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:07:50 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.3ms)
+Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/assets/helpers/rubies_helper-02540b48.js" for 127.0.0.1 at 2025-07-19 01:07:50 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:07:50 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:07:59 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.1ms)
+Completed 200 OK in 10ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/assets/helpers/rubies_helper-8607c852.js" for 127.0.0.1 at 2025-07-19 01:07:59 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:07:59 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:08:02 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:08:03 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:08:12 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.2ms)
+Completed 200 OK in 10ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/assets/helpers/rubies_helper-3ff61a3b.js" for 127.0.0.1 at 2025-07-19 01:08:12 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:08:12 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:09:19 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.1ms)
+Completed 200 OK in 14ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/assets/helpers/rubies_helper-1eee866b.js" for 127.0.0.1 at 2025-07-19 01:09:19 -0500
+Started GET "/assets/controllers/mine_controller-b2286c5d.js" for 127.0.0.1 at 2025-07-19 01:09:19 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:09:19 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:09:34 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/assets/controllers/mine_controller-946c5f16.js" for 127.0.0.1 at 2025-07-19 01:09:34 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:09:34 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:11:13 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/helpers/rubies_helper-30879459.js" for 127.0.0.1 at 2025-07-19 01:11:13 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:11:13 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-19 01:11:23 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 20}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:23:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (2.2ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'Rohan''s Test' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.4ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 20, "updated_at" = '2025-07-19 06:11:23.187598' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (99.3ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+Completed 200 OK in 120ms (Views: 0.3ms | ActiveRecord: 102.6ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-19 01:11:32 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 21}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:23:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'Rohan''s Test' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 21, "updated_at" = '2025-07-19 06:11:32.606357' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (14.9ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+Completed 200 OK in 30ms (Views: 0.3ms | ActiveRecord: 17.3ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:12:26 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/helpers/rubies_helper-80bb02f7.js" for 127.0.0.1 at 2025-07-19 01:12:26 -0500
+Started GET "/assets/controllers/mine_controller-b50f9588.js" for 127.0.0.1 at 2025-07-19 01:12:26 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:12:26 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-19 01:12:34 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 22}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:23:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'Rohan''s Test' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 22, "updated_at" = '2025-07-19 06:12:34.837374' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (18.7ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:24:in 'Api::PlayersController#update'
+Completed 200 OK in 39ms (Views: 0.3ms | ActiveRecord: 20.3ms (3 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:30 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.2ms)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:30 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 2.4ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:31 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.2ms)
+Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:31 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:32 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:32 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:33 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.2ms)
+Completed 200 OK in 12ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:33 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login.html" for 127.0.0.1 at 2025-07-19 01:18:35 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.3ms)
+Completed 200 OK in 25ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:38 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:40 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:42 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:42 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login.html" for 127.0.0.1 at 2025-07-19 01:18:44 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game.html" for 127.0.0.1 at 2025-07-19 01:18:45 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:45 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-19 01:18:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
