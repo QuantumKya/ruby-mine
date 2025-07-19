@@ -2,22 +2,25 @@
 
 <a href="login.html">Login Page</a>
 
-<br>
+<div data-controller="mine">
+    <p id="ruby-count" data-mine-target="rubyCount" class="absolute right-4 top-4">Rubies: ...</p>
 
-<p id="ruby-count">Rubies: 0</p>
+    <%= image_tag "ruby.png", alt: "Ruby", id: "ruby",
+        class: "absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]" %>
 
-<%= image_tag "ruby.png", alt: "Ruby", id: "ruby" %>
-<div id="break-imgs">
-    <%= image_tag "break/break0.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break1.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break2.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break3.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break4.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break5.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break6.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break7.png", alt: "Break", id: "break" %>
-    <%= image_tag "break/break8.png", alt: "Break", id: "break" %>
+    <div id="break-imgs" data-mine-target="breakImgs" class="">
+        <%= image_tag "break/break0.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break1.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break2.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break3.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break4.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break5.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break6.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break7.png", alt: "Break", class: "break" %>
+        <%= image_tag "break/break8.png", alt: "Break", class: "break" %>
+    </div>
+
+    <%= image_tag "pickaxe.png", alt: "Pickaxe", id: "pickaxe", data: { mine_target: "pickaxe",
+        action: "mousedown->mine#mine mouseenter->mine#hover mouseleave->mine#unhover" } %>
+
 </div>
-<%= image_tag "pickaxe.png", alt: "Pickaxe", id: "pickaxe" %>
-
-<%= javascript_include_tag 'mine.js' %>

@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+.break {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    opacity: 0;
+    z-index: 10;
+}
+
+#pickaxe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(80%) translateY(-250px) scale(2.5) scaleX(-1);
+    transition: 300ms ease-in-out;
+    z-index: 20;
+}
