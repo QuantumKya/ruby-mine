@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+}
+
+#ruby {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#break {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    opacity: 0%;
+}
+
+#pickaxe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(80%) translateY(-250px) scale(2.5) scaleX(-1);
+    transition: 300ms ease-in-out;
+    z-index: 2;
+}
+
+#ruby-count {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
