@@ -16,16 +16,31 @@ export default class extends Controller {
 
         init(this.playerID)
         .then(response => {
-            this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies(this.playerID)}</strong>`;
-            this.pickaxeTarget.src = window.pickaxeImages[getPick()];
+            this.updateRubyCount();
+            this.updatePickaxe();
         });
 
-        window.addEventListener("pick_update", (event) => {
-            this.pickaxeTarget.src = window.pickaxeImages[getPick()];
-        });
+        window.addEventListener('pickaxe_updated', () => this.updatePickaxe());
+        window.addEventListener('rubies_updated', () => this.updateRubyCount());
+    }
+
+    calcSpeed() {
+        let spd = 1;
+        spd = 1 + [0, 5, 7, 10, 15, 23, 30, 50].at(getPick()) / 7.5;
+        spd *= 1 + 0.1 * getEfficiency();
+        this.speed = spd;
+    }
+
+    updateRubyCount() {
+        this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies()}</strong>`;
+    }
+
+    updatePickaxe() {
+        this.pickaxeTarget.src = window.pickaxeImages[getPick()];
     }
 
     mine(event) {
+        this.calcSpeed();
         this.pickaxeTarget.style.transition = `transform ${400/this.speed}ms ease-in`;
 
         event.preventDefault();
@@ -35,25 +50,26 @@ export default class extends Controller {
         setTimeout(() => {
             this.pickaxeTarget.style.transform = this.cssfmt(this.pickaxeTarget.matches(':hover') ? '-10' : '0');
 
-            this.durability--;
+            this.durability -= (this.speed >= 30) ? Math.floor(this.speed / 30) : 1;
             this.breakImgTarget.style.opacity = '0%';
             if (this.durability <= 0) {
-                this.durability = 8;
-                addRubies(this.playerID, 1)
+                addRubies(Math.floor(-this.durability/8) + 1)
                 .then(response => {
+                    this.durability += 8 * Math.floor(-this.durability/8) + 8;
                     console.log("Got a ruby!!!");
-                    this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies(this.playerID)}</strong>`;
+                    this.updateRubyCount();
                 });
             }
-            else {
+            if (this.durability !== 0) {
                 this.breakImgTarget.src = window.breakImages[Math.max(7 - this.durability, 0)];
                 this.breakImgTarget.style.opacity = '100%';
             }
 
+
             setTimeout(() => {
                 this.mining = false;
                 this.pickaxeTarget.style.transform = this.cssfmt(this.pickaxeTarget.matches(':hover') ? '-10' : '0');
-                this.pickaxeTarget.style.transition = `transform 250ms ease-in`;
+                this.pickaxeTarget.style.transition = `transform ${250 * 2/this.speed}ms ease-in`;
             }, 500 / this.speed);
 
         }, 500 / this.speed);
