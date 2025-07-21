@@ -8,12 +8,18 @@ export default class extends Controller {
     pickPrices = [0, 10, 20, 40, 65, 100, 185, 300];
 
     connect() {
-        this.playerID = 1;
+        window.addEventListener('rubies_updated', () => this.updatePicks());
 
-        stats.init(this.playerID)
+        this.initShop();
+    }
+
+    initShop() {
+        stats.init(stats.getPID())
         .then(response => {
             this.fortuneTextTarget.innerHTML = `Fortune ${stats.romanize(stats.getFortune())}`;
             this.efficiencyTextTarget.innerHTML = `Efficiency ${stats.romanize(stats.getEfficiency())}`;
+
+            this.pickaxeMenuTarget.innerHTML = '';
 
             for (let i = 0; i < 8; i++) {
                 let div = document.createElement('div');
@@ -45,8 +51,6 @@ export default class extends Controller {
 
             this.updatePicks();
         });
-
-        window.addEventListener('rubies_updated', () => this.updatePicks());
     }
 
     updatePicks() {

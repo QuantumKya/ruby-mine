@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   namespace :api do
+    get 'players/lookup', to: 'players#lookup'
     resources :players, only: [:index, :show, :create, :update]
   end
 end

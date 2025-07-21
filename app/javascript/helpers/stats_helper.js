@@ -1,5 +1,4 @@
 let totalRubies = 0;
-let pID = 0;
 
 let pickaxesUnlocked = 0;
 let selectedPickaxe = 0;
@@ -7,8 +6,8 @@ let fortune = 0;
 let efficiency = 0;
 
 export const init = async (playerID) => {
-    pID = playerID;
-    return fetch(`api/players/${pID}`)
+    setPID(playerID);
+    return fetch(`api/players/${playerID}`)
     .then(response => response.json())
     .then(data => {
         totalRubies = data.rubies;
@@ -24,6 +23,9 @@ export const getPickaxes = () => {
     const binArr = pickaxesUnlocked.toString(2).split('');
     return binArr.map(char => char === '1').reverse();
 }
+
+export const setPID = (id) => localStorage.setItem('player_id', id);
+export const getPID = () => localStorage.getItem('player_id');
 
 export const getFortune = () => fortune;
 export const getEfficiency = () => efficiency;

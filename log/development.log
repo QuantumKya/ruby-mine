@@ -23349,3 +23349,2829 @@ Completed 200 OK in 16ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cache
 
 
 Started GET "/assets/ruby-mine-icon-b726dd76.png" for 127.0.0.1 at 2025-07-21 14:38:49 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:40:14 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:48:24 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | GC: 2.4ms)
+Completed 200 OK in 29ms (Views: 6.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 15.4ms)
+
+
+Started GET "/assets/controllers/login_controller-f1b02932.js" for 127.0.0.1 at 2025-07-21 14:48:24 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:48:25 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:48:29 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 18ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:48:34 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:48:36 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.5ms)
+Completed 200 OK in 7ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/?username=Ahi&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:48:42 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "Ahi", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=Ahi&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:48:48 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "Ahi", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:49:07 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/sign-up" for 127.0.0.1 at 2025-07-21 14:49:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/sign-up"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:49:24 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.5ms)
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/?username=avb&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:30 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "avb", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:33 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.5ms)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/?username=&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:35 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:36 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:36 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.1ms)
+
+
+Started GET "/?username=avb&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:38 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "avb", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=avb&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:49:39 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "avb", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:49:42 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.2ms)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:54:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='RubyMine'*/[0m
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/assets/controllers/login_controller-2db4d187.js" for 127.0.0.1 at 2025-07-21 14:54:30 -0500
+Started GET "/?username=abcd&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:54:38 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=abcd&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:56:06 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-2f7f00ba.js" for 127.0.0.1 at 2025-07-21 14:56:06 -0500
+Started GET "/?username=abcd&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:56:10 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=abcd&password=[FILTERED]" for 127.0.0.1 at 2025-07-21 14:56:12 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd", "password" => "[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:56:19 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:58:01 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.4ms)
+Completed 200 OK in 13ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/assets/controllers/login_controller-7d12fffe.js" for 127.0.0.1 at 2025-07-21 14:58:01 -0500
+Started GET "/?username=abcd" for 127.0.0.1 at 2025-07-21 14:58:08 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.3ms)
+Completed 200 OK in 18ms (Views: 1.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/?username=abcd" for 127.0.0.1 at 2025-07-21 14:58:11 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 14:58:13 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.2ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:00:51 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.1ms)
+Completed 200 OK in 11ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:00:52 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:01:30 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.7ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | GC: 0.8ms)
+Completed 200 OK in 17ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 5.8ms)
+
+
+Started GET "/assets/tailwind-40e9009a.css" for 127.0.0.1 at 2025-07-21 15:01:30 -0500
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:01:32 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.8ms)
+Completed 200 OK in 17ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:01:33 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:01:40 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.2ms)
+Completed 200 OK in 9ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:01:41 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:01:46 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:01:55 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.3ms)
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:02:03 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.1ms)
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:02:09 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:02:10 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:02:44 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.4ms)
+Completed 200 OK in 9ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:02:46 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:02:46 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:02:47 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:02:48 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:02:49 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:02:49 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:02:50 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:03:38 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:03:40 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.2ms)
+Completed 200 OK in 15ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:03:40 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:03:44 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:03:44 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:03:45 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:03:45 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.2ms)
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:03:46 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:03:46 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 22ms (Views: 1.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:03:47 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:03:47 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.2ms)
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:04:32 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.2ms)
+Completed 200 OK in 13ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/assets/controllers/login_controller-70d9d85a.js" for 127.0.0.1 at 2025-07-21 15:04:32 -0500
+Started GET "/login?username=abcd" for 127.0.0.1 at 2025-07-21 15:04:34 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/turbo.min-5f3b7fda.js.map" for 127.0.0.1 at 2025-07-21 15:04:41 -0500
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:04:41 -0500
+Started GET "/login?username=abcd" for 127.0.0.1 at 2025-07-21 15:04:44 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "abcd"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.1ms)
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/assets/turbo.min-5f3b7fda.js.map" for 127.0.0.1 at 2025-07-21 15:04:44 -0500
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:04:44 -0500
+Started GET "/login" for 127.0.0.1 at 2025-07-21 15:04:48 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/turbo.min-5f3b7fda.js.map" for 127.0.0.1 at 2025-07-21 15:04:48 -0500
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:04:48 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:04:52 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/turbo.min-5f3b7fda.js.map" for 127.0.0.1 at 2025-07-21 15:04:52 -0500
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:04:52 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:08:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='RubyMine'*/[0m
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | GC: 0.6ms)
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:17:17 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.1ms)
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/assets/helpers/stats_helper-265d9b01.js" for 127.0.0.1 at 2025-07-21 15:17:17 -0500
+Started GET "/assets/controllers/login_controller-eedd1ffe.js" for 127.0.0.1 at 2025-07-21 15:17:17 -0500
+Started GET "/?username=Test" for 127.0.0.1 at 2025-07-21 15:17:21 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=Test" for 127.0.0.1 at 2025-07-21 15:17:49 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.2ms)
+Completed 200 OK in 11ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/assets/controllers/login_controller-252409a3.js" for 127.0.0.1 at 2025-07-21 15:17:49 -0500
+Started GET "/?username=Test" for 127.0.0.1 at 2025-07-21 15:17:50 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:51 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:51 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.5ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.4ms)
+Completed 200 OK in 23ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:51 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:51 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:51 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:52 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:52 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:54 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:54 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:55 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:55 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:55 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:55 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:56 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:58 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:17:58 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:18:14 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.4ms)
+Completed 200 OK in 9ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/players/lookup?username=Test" for 127.0.0.1 at 2025-07-21 15:18:15 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"username" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 27ms (ActiveRecord: 8.4ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+  [1m[36mPlayer Load (31.7ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*application='RubyMine'*/[0m
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:19:30 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:20:12 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-cbc263ac.js" for 127.0.0.1 at 2025-07-21 15:20:12 -0500
+Started GET "/api/players/lookup?username=Test" for 127.0.0.1 at 2025-07-21 15:20:14 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"username" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 16ms (ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:22:15 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/assets/controllers/login_controller-38b8d329.js" for 127.0.0.1 at 2025-07-21 15:22:15 -0500
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:22:16 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 15ms (ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:24:38 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.4ms)
+Completed 200 OK in 15ms (Views: 3.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.3ms)
+
+
+Started GET "/assets/controllers/login_controller-3e8914f1.js" for 127.0.0.1 at 2025-07-21 15:24:38 -0500
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:24:39 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 24ms (ActiveRecord: 3.2ms (1 query, 0 cached) | GC: 1.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+  [1m[36mPlayer Load (1.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*application='RubyMine'*/[0m
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:25:17 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-f65cf6a1.js" for 127.0.0.1 at 2025-07-21 15:25:18 -0500
+Started GET "/api/players/lookup?name=%22Test%22" for 127.0.0.1 at 2025-07-21 15:25:18 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "\"Test\"", "id" => "lookup"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 13ms (ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:26:23 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/assets/controllers/login_controller-6eff97b5.js" for 127.0.0.1 at 2025-07-21 15:26:23 -0500
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:26:24 -0500
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:26:34 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-211194f2.js" for 127.0.0.1 at 2025-07-21 15:26:34 -0500
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:26:50 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 1.0ms)
+Completed 200 OK in 16ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.8ms)
+
+
+Started GET "/assets/controllers/login_controller-a39b303f.js" for 127.0.0.1 at 2025-07-21 15:26:50 -0500
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:26:51 -0500
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:29:00 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 4.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:29:01 -0500
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:29:14 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=%22Test%22" for 127.0.0.1 at 2025-07-21 15:29:15 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "\"Test\"", "id" => "lookup"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 21ms (ActiveRecord: 1.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:29:46 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mPlayer Load (4.7ms)[0m  [1m[34mSELECT "players".* FROM "players" /* loading for pp */ LIMIT 11 /*application='RubyMine'*/[0m
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:33:20 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 3.9ms | GC: 3.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | GC: 4.2ms)
+Completed 200 OK in 12ms (Views: 6.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 4.2ms)
+
+
+Started GET "/api/players/lookup?name=%22Test%22" for 127.0.0.1 at 2025-07-21 15:33:20 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "\"Test\"", "id" => "lookup"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 24ms (ActiveRecord: 1.9ms (1 query, 0 cached) | GC: 0.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:33:32 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:33:33 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 6ms (ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:36:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='RubyMine'*/[0m
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 5.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | GC: 0.0ms)
+Completed 200 OK in 39ms (Views: 18.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/tailwind-a9d4acc1.css" for 127.0.0.1 at 2025-07-21 15:36:21 -0500
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:36:22 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"name" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 49ms (ActiveRecord: 22.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:37:50 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 27ms (Views: 15.4ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:37:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players/lookup" for 127.0.0.1 at 2025-07-21 15:37:55 -0500
+Processing by Api::PlayersController#show as HTML
+  Parameters: {"id" => "lookup"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 10ms (ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:38:03 -0500
+Processing by Api::PlayersController#show as HTML
+  Parameters: {"name" => "Test", "id" => "lookup"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 10ms (ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 1.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=lookup):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:38:24 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 8ms (Views: 2.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:38:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:38:38 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 21ms (Views: 8.9ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:38:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players/Test" for 127.0.0.1 at 2025-07-21 15:39:06 -0500
+Processing by Api::PlayersController#show as HTML
+  Parameters: {"id" => "Test"}
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 17ms (ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=Test):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:39:51 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 18ms (Views: 8.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:39:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:41:11 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 33ms (Views: 20.3ms | ActiveRecord: 2.2ms (1 query, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:41:18 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players" for 127.0.0.1 at 2025-07-21 15:41:19 -0500
+Processing by Api::PlayersController#index as HTML
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" /*action='index',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:5:in 'Api::PlayersController#index'
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players/lookup?name=abcd" for 127.0.0.1 at 2025-07-21 15:41:31 -0500
+Processing by Api::PlayersController#lookup as HTML
+  Parameters: {"name" => "abcd"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'abcd' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 404 Not Found in 18ms (Views: 0.2ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:31 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:41:35 -0500
+Processing by Api::PlayersController#lookup as HTML
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-21 15:41:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/?username=" for 127.0.0.1 at 2025-07-21 15:41:43 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => ""}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 1.0ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | GC: 0.5ms)
+Completed 200 OK in 18ms (Views: 11.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/?username=Test" for 127.0.0.1 at 2025-07-21 15:41:43 -0500
+Processing by PagesController#login as HTML
+  Parameters: {"username" => "Test"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:41:47 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.6ms)
+Completed 200 OK in 10ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:42:01 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:42:01 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 3.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 6.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:42:01 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 13ms (Views: 4.4ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:42:01 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:42:05 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:42:06 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:42:06 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:42:08 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:42:12 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:42:13 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:42:13 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*application='RubyMine'*/[0m
+  [1m[36mPlayer Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*application='RubyMine'*/[0m
+  [1m[36mPlayer Create (49.1ms)[0m  [1m[32mINSERT INTO "players" ("name", "rubies", "pickaxe", "fortune", "efficiency", "created_at", "updated_at") VALUES ('Test2', 1000, 231, 0, 0, '2025-07-21 20:43:20.911610', '2025-07-21 20:43:20.911610') RETURNING "id" /*application='RubyMine'*/[0m
+  [1m[36mTRANSACTION (46.7ms)[0m  [1m[35mCOMMIT /*application='RubyMine'*/[0m
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:43:25 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:43:25 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:43:25 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:43:26 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 9.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:43:31 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:43:31 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:43:31 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:43:31 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:43:33 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:43:33 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:43:33 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:44:49 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/helpers/stats_helper-c9701ae8.js" for 127.0.0.1 at 2025-07-21 15:44:49 -0500
+Started GET "/assets/controllers/mine_controller-fe85679f.js" for 127.0.0.1 at 2025-07-21 15:44:49 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:44:50 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/shop_controller-5e6a5f7e.js" for 127.0.0.1 at 2025-07-21 15:44:50 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:44:50 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-620a5b4c.js" for 127.0.0.1 at 2025-07-21 15:44:50 -0500
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:45:05 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-582d5c57.js" for 127.0.0.1 at 2025-07-21 15:45:05 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:05 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:05 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:45:07 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:45:11 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 12ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:45:11 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:11 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:11 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:45:40 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 21ms (Views: 0.1ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:45:40 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:40 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:40 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:45:45 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 11ms (Views: 0.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:45:45 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.6ms)
+Completed 200 OK in 7ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:45 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:45:45 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:47:54 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | GC: 0.4ms)
+Completed 200 OK in 20ms (Views: 4.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.9ms)
+
+
+Started GET "/assets/helpers/stats_helper-9c9c31ad.js" for 127.0.0.1 at 2025-07-21 15:47:54 -0500
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:47:55 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 13ms (Views: 0.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:47:55 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:47:55 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:47:55 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:48:00 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 15ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:48:00 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.2ms)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:48:01 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:48:01 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-21 15:48:12 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 2}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'Test' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.4ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 2, "updated_at" = '2025-07-21 20:48:12.522203' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (91.1ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 133ms (Views: 1.6ms | ActiveRecord: 94.0ms (3 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:51:24 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/assets/controllers/mine_controller-8b772132.js" for 127.0.0.1 at 2025-07-21 15:51:24 -0500
+Started GET "/assets/controllers/shop_controller-2e0dd0f7.js" for 127.0.0.1 at 2025-07-21 15:51:24 -0500
+Started GET "/assets/controllers/login_controller-19a79f1a.js" for 127.0.0.1 at 2025-07-21 15:51:24 -0500
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:51:25 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 14ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/stimulus.min-2395e199.js.map" for 127.0.0.1 at 2025-07-21 15:51:25 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:51:58 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.2ms)
+Completed 200 OK in 12ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/assets/controllers/login_controller-42045c67.js" for 127.0.0.1 at 2025-07-21 15:51:58 -0500
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:51:59 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 15ms (Views: 0.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:51:59 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/undefined" for 127.0.0.1 at 2025-07-21 15:51:59 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "undefined"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = NULL LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 404 Not Found in 21ms (ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Player with 'id'=undefined):
+  
+app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:52:45 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 6.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.5ms)
+
+
+Started GET "/assets/controllers/mine_controller-ea7aadae.js" for 127.0.0.1 at 2025-07-21 15:52:45 -0500
+Started GET "/assets/controllers/shop_controller-54727a25.js" for 127.0.0.1 at 2025-07-21 15:52:45 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:52:45 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:52:50 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:52:53 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 6ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:52:53 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:52:53 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:52:56 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 12ms (Views: 0.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:52:56 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 15:52:56 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-21 15:53:12 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 3}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'Test' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.1ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 3, "updated_at" = '2025-07-21 20:53:12.787779' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (21.6ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 43ms (Views: 0.6ms | ActiveRecord: 23.5ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:54:11 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/mine_controller-63fb3f02.js" for 127.0.0.1 at 2025-07-21 15:54:11 -0500
+Started GET "/assets/controllers/shop_controller-542d84e2.js" for 127.0.0.1 at 2025-07-21 15:54:11 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:54:14 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 6.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=" for 127.0.0.1 at 2025-07-21 15:54:15 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => ""}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = '' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 404 Not Found in 12ms (Views: 0.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:54:18 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 14ms (Views: 0.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:54:18 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:54:56 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 1.2ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | GC: 0.7ms)
+Completed 200 OK in 18ms (Views: 4.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 5.0ms)
+
+
+Started GET "/assets/controllers/shop_controller-51540ae1.js" for 127.0.0.1 at 2025-07-21 15:54:56 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:54:58 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 1.0ms)
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:55:01 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 18ms (Views: 0.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:55:01 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.9ms | GC: 0.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.6ms)
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:55:05 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 15:55:06 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 14ms (Views: 0.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:55:06 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:56:38 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.3ms)
+Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/assets/controllers/shop_controller-aaa970c6.js" for 127.0.0.1 at 2025-07-21 15:56:38 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 15:56:41 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 15:56:42 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 15:56:45 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 14ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 15:56:45 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.7ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | GC: 0.4ms)
+Completed 200 OK in 7ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:10 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.2ms)
+Completed 200 OK in 12ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/assets/controllers/mine_controller-1ae61c58.js" for 127.0.0.1 at 2025-07-21 16:00:10 -0500
+Started GET "/assets/controllers/shop_controller-d8221370.js" for 127.0.0.1 at 2025-07-21 16:00:10 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:10 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:10 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/assets/controllers/login_controller-c45be26d.js" for 127.0.0.1 at 2025-07-21 16:00:10 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:00:13 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 16:00:15 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:15 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:15 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:15 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:00:19 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:19 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.6ms)
+Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:19 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:19 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:21 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.6ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 1.0ms)
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:21 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.8ms (1 query, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:21 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 1.5ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:37 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 1.4ms | GC: 0.9ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | GC: 2.5ms)
+Completed 200 OK in 28ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 10.3ms)
+
+
+Started GET "/assets/controllers/login_controller-42a2ff61.js" for 127.0.0.1 at 2025-07-21 16:00:37 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:37 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:37 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:00:39 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.2ms)
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 16:00:46 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 7ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 1.1ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:46 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 4.5ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | GC: 0.3ms)
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:00:51 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:51 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:52 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:52 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (2.1ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 29ms (Views: 0.1ms | ActiveRecord: 2.1ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+  [1m[36mPlayer Load (5.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 34ms (Views: 0.1ms | ActiveRecord: 6.7ms (1 query, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:00:54 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:54 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:00:54 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mPlayer Load (0.1ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:00:59 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:01:00 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:01:06 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 15ms (Views: 0.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:01:06 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:06 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:06 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 29ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 31ms (Views: 0.1ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:01:39 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.1ms)
+
+
+Started GET "/assets/controllers/login_controller-4fe51bbc.js" for 127.0.0.1 at 2025-07-21 16:01:39 -0500
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 16:01:42 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 11ms (Views: 0.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:01:42 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:42 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:42 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:01:46 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 13ms (Views: 0.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:01:46 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:01:53 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.2ms)
+Completed 200 OK in 12ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/assets/controllers/login_controller-9d2ec653.js" for 127.0.0.1 at 2025-07-21 16:01:53 -0500
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:01:56 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 14ms (Views: 0.0ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:01:56 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:56 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:56 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:01:57 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 1.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:57 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:01:57 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:03:59 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-762bd545.js" for 127.0.0.1 at 2025-07-21 16:03:59 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:03:59 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:03:59 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:04:01 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:04:05 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 25ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:04:06 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:06 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:06 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:04:33 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-e36a2291.js" for 127.0.0.1 at 2025-07-21 16:04:33 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:33 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:33 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:04:35 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-21 16:04:37 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:04:40 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 15ms (Views: 0.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:04:40 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:40 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:40 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:04:45 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:45 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:04:45 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:05:30 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.1ms)
+Completed 200 OK in 12ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+Started GET "/assets/controllers/mine_controller-22e2ae95.js" for 127.0.0.1 at 2025-07-21 16:05:30 -0500
+Started GET "/assets/controllers/shop_controller-42cc8326.js" for 127.0.0.1 at 2025-07-21 16:05:30 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:05:30 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:05:30 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/controllers/login_controller-22b809e6.js" for 127.0.0.1 at 2025-07-21 16:05:30 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:05:32 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:05:33 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=Test" for 127.0.0.1 at 2025-07-21 16:05:36 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 17ms (Views: 0.0ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:05:37 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.5ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.2ms)
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:05:37 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:05:37 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:05:39 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:05:42 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 20ms (Views: 0.0ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:05:43 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:05:43 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-21 16:05:43 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-21 16:07:58 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.2ms)
+Completed 200 OK in 10ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/assets/helpers/stats_helper-a744a1d6.js" for 127.0.0.1 at 2025-07-21 16:07:58 -0500
+Started GET "/api/players/lookup?name=Test2" for 127.0.0.1 at 2025-07-21 16:08:01 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "Test2"}
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'Test2' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-21 16:08:01 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/2" for 127.0.0.1 at 2025-07-21 16:08:01 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 2 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/api/players/2" for 127.0.0.1 at 2025-07-21 16:08:01 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "2"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 2 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/pickaxe/diamond-56443c21.png" for 127.0.0.1 at 2025-07-21 16:08:01 -0500
+Started GET "/assets/pickaxe/netherite-b949a266.png" for 127.0.0.1 at 2025-07-21 16:08:01 -0500
+Started GET "/assets/pickaxe/ruby-a83fb8bb.png" for 127.0.0.1 at 2025-07-21 16:08:01 -0500

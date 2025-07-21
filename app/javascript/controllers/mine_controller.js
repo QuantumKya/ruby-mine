@@ -1,27 +1,29 @@
 import { Controller } from "@hotwired/stimulus"
-import { getRubies, addRubies, getPick, init, getEfficiency, getFortune } from "stats_helper";
+import { getRubies, addRubies, getPick, init, getEfficiency, getFortune, getPID } from "stats_helper";
 
 // Connects to data-controller="mine"
 export default class extends Controller {
     static targets = ["pickaxe", "breakImg", "rubyCount"];
 
     connect() {
-        this.playerID = 1;
-
         this.mining = false;
         this.durability = 8;
         this.speed = 1;
 
         this.cssfmt = (a) => `translateX(80%) translateY(-250px) scale(2.5) scaleX(-1) rotate(${a}deg)`;
 
-        init(this.playerID)
+        window.addEventListener('pickaxe_updated', () => this.updatePickaxe());
+        window.addEventListener('rubies_updated', () => this.updateRubyCount());
+
+        this.initMine();
+    }
+
+    initMine() {
+        init(getPID())
         .then(response => {
             this.updateRubyCount();
             this.updatePickaxe();
         });
-
-        window.addEventListener('pickaxe_updated', () => this.updatePickaxe());
-        window.addEventListener('rubies_updated', () => this.updateRubyCount());
     }
 
     calcSpeed() {

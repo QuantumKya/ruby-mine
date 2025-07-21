@@ -1,22 +1,19 @@
 <div class="w-[100vw] h-[100vh] flex items-center justify-center absolute top-0 left-0">
 
-    <form class="flex flex-col gap-2 bg-neutral-400 p-5 w-[30vw]
+    <form data-controller="login" class="flex flex-col gap-2 bg-neutral-400 p-5 w-[30vw]
                 [&_input]:relative [&_input]:p-2 [&_input]:pl-4 [&_input]:pr-4 [&_input]:rounded-full [&_input]:border-2 [&_input]:border-gray-400 [&_input]:text-black [&_input]:bg-radial-[at_95%_25%] [&_input]:to-red-500 [&_input]:from-red-300
         [&_input]:focus:outline-none [&_input]:focus:border-red-200 [&_input]:focus:bg-red-300 [&_input]:transition [&_input]:duration-300 [&_input]:ease-in-out
         [&_input]:focus:bg-radial-[at_95%_25%] [&_input]:focus:to-red-300 [&_input]:focus:from-red-400">
 
         <p class="text-center text-red-700">Ruby Mine -- Login</p>
 
-        <img src="<%= asset_path('ruby-mine-icon.png') %>" alt="">
+        <img src="<%= asset_path('ruby-mine-icon.png') %>" alt="Logo">
+        
+        <a href="/signup" class="underline text-center text-sm">Haven't played before? Sign up here.</a>
 
-        <a href="/sign-up">game</a>
+        <input type="text" name="username" id="username" placeholder="Username">
 
-        <input type="text" name="username" id="username" placeholder="Username"
-        class="">
-
-        <input type="password" name="password" id="password" placeholder="Password">
-
-        <input type="button" value="Log In"
+        <input type="submit" value="Log In" data-action="click->login#login"
         class="absolute w-[150px] left-[50%] -translate-x-[50%] hover:bg-radial-[at_95%_25%] hover:to-red-400 hover:from-red-200">
 
     </form>

@@ -10,6 +10,16 @@ class Api::PlayersController < ApplicationController
         render json: player
     end
 
+    def lookup
+        player = Player.find_by(name: params[:name])
+
+        if player
+            render json: { status: 'found', id: player.id, name: player.name }
+        else
+            render json: { status: 'not_found', error: 'Player with given name not found' }, status: :not_found
+        end
+    end
+
     def create
         player = Player.new(player_params)
         if player.save
