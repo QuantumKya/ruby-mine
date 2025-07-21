@@ -1,8 +1,52 @@
 <%= stylesheet_link_tag 'mine', media: 'all' %>
 
-<div id="shop" class="absolute h-[100vh] w-[400px] left-0 top-0
+<script>
+    window.pickaxeImages = [
+        "<%= asset_path('pickaxe/wooden.png') %>",
+        "<%= asset_path('pickaxe/stone.png') %>",
+        "<%= asset_path('pickaxe/golden.png') %>",
+        "<%= asset_path('pickaxe/copper.png') %>",
+        "<%= asset_path('pickaxe/iron.png') %>",
+        "<%= asset_path('pickaxe/diamond.png') %>",
+        "<%= asset_path('pickaxe/netherite.png') %>",
+        "<%= asset_path('pickaxe/ruby.png') %>"
+    ];
+    window.missingPickaxe = "<%= asset_path('pickaxe/missing.png') %>";
+
+    window.breakImages = [
+        "<%= asset_path('break/break0.png') %>",
+        "<%= asset_path('break/break1.png') %>",
+        "<%= asset_path('break/break2.png') %>",
+        "<%= asset_path('break/break3.png') %>",
+        "<%= asset_path('break/break4.png') %>",
+        "<%= asset_path('break/break5.png') %>",
+        "<%= asset_path('break/break6.png') %>",
+        "<%= asset_path('break/break7.png') %>",
+        "<%= asset_path('break/break8.png') %>",
+        "<%= asset_path('break/break9.png') %>"
+    ];
+</script>
+
+<div data-controller="shop" id="shop" class="absolute h-[100vh] w-[450px] left-0 top-0
         border-t-red-300 border-r-red-300 border-b-red-400 border-l-red-400 border-8 bg-radial-[at_70%_5%] from-red-300 to-red-400">
     <p class="relative text-center text-5xl top-2.5"><strong>Shop</strong></p>
+
+    <br>
+
+    <div data-shop-target="pickaxeMenu" class="relative flex flex-row flex-wrap
+                *:w-[108.5px] *:border-2 *:bg-radial-[at_70%_25%] *:from-red-600 *:to-amber-700">
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+        <button><img src="<%= asset_path('pickaxe/missing.png') %>"></button>
+    </div>
+
+    <p data-shop-target="fortuneText"></p>
+    <p data-shop-target="efficiencyText"></p>
 </div>
 
 <div data-controller="mine" class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]">
@@ -10,19 +54,9 @@
 
     <%= image_tag "ruby.png", alt: "Ruby", id: "ruby" %>
 
-    <div id="break-imgs" data-mine-target="breakImgs" class="">
-        <%= image_tag "break/break0.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break1.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break2.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break3.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break4.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break5.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break6.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break7.png", alt: "Break", class: "break" %>
-        <%= image_tag "break/break8.png", alt: "Break", class: "break" %>
-    </div>
+    <%= image_tag "break/break0.png", alt: "Break", id: "break", data: { mine_target: "breakImg" } %>
 
-    <%= image_tag "pickaxe.png", alt: "Pickaxe", id: "pickaxe", data: { mine_target: "pickaxe",
+    <%= image_tag "pickaxe/missing.png", alt: "Pickaxe", id: "pickaxe", data: { mine_target: "pickaxe", shop_target: "pickaxe",
         action: "mousedown->mine#mine mouseenter->mine#hover mouseleave->mine#unhover" } %>
 
 </div>

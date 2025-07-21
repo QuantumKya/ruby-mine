@@ -3,7 +3,13 @@
 one:
   name: MyString
   rubies: 1
+  pickaxe: 1
+  fortune: 1
+  efficiency: 1
 
 two:
   name: MyString
   rubies: 1
+  pickaxe: 1
+  fortune: 1
+  efficiency: 1

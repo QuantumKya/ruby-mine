@@ -31,6 +31,6 @@ class Api::PlayersController < ApplicationController
     private
 
     def player_params
-        params.require(:player).permit(:name, :rubies)
+        params.require(:player).permit(:name, :rubies, :pickaxe, :fortune, :efficiency)
     end
 end

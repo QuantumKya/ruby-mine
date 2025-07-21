@@ -1,9 +1,9 @@
 import { Controller } from "@hotwired/stimulus"
-import { getRubies, addRubies, init } from "rubies_helper";
+import { getRubies, addRubies, getPick, init, getEfficiency, getFortune } from "stats_helper";
 
 // Connects to data-controller="mine"
 export default class extends Controller {
-    static targets = ["pickaxe", "breakImgs", "rubyCount"];
+    static targets = ["pickaxe", "breakImg", "rubyCount"];
 
     connect() {
         this.playerID = 1;
@@ -16,7 +16,12 @@ export default class extends Controller {
 
         init(this.playerID)
         .then(response => {
-            this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies(this.playerID)}</strong>`
+            this.rubyCountTarget.innerHTML = `<strong>Rubies: ${getRubies(this.playerID)}</strong>`;
+            this.pickaxeTarget.src = window.pickaxeImages[getPick()];
+        });
+
+        window.addEventListener("pick_update", (event) => {
+            this.pickaxeTarget.src = window.pickaxeImages[getPick()];
         });
     }
 
@@ -31,7 +36,7 @@ export default class extends Controller {
             this.pickaxeTarget.style.transform = this.cssfmt(this.pickaxeTarget.matches(':hover') ? '-10' : '0');
 
             this.durability--;
-            for (const child of this.breakImgsTarget.children) child.style.opacity = '0%';
+            this.breakImgTarget.style.opacity = '0%';
             if (this.durability <= 0) {
                 this.durability = 8;
                 addRubies(this.playerID, 1)
@@ -41,11 +46,13 @@ export default class extends Controller {
                 });
             }
             else {
-                this.breakImgsTarget.children[Math.max(7 - this.durability, 0)].style.opacity = '100%';
+                this.breakImgTarget.src = window.breakImages[Math.max(7 - this.durability, 0)];
+                this.breakImgTarget.style.opacity = '100%';
             }
 
             setTimeout(() => {
                 this.mining = false;
+                this.pickaxeTarget.style.transform = this.cssfmt(this.pickaxeTarget.matches(':hover') ? '-10' : '0');
                 this.pickaxeTarget.style.transition = `transform 250ms ease-in`;
             }, 500 / this.speed);
 
