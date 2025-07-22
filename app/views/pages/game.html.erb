@@ -27,18 +27,37 @@
     ];
 </script>
 
-<div data-controller="shop" id="shop" class="absolute h-[100vh] w-[450px] left-0 top-0
-        border-t-red-300 border-r-red-300 border-b-red-400 border-l-red-400 border-8 bg-radial-[at_70%_5%] from-red-300 to-red-400">
-    <p class="relative text-center text-5xl top-2.5"><strong>Shop</strong></p>
+<div data-controller="shop" id="shop" class="absolute h-[100vh] w-[450px] left-0 top-0 flex flex-col gap-0
+        border-t-red-300 border-r-red-300 border-b-red-400 border-l-red-400 border-8 bg-radial-[at_70%_5%] from-red-300 to-red-400
+    [&_input]:relative [&_input]:p-2 [&_input]:pl-4 [&_input]:pr-4 [&_input]:rounded-full [&_input]:border-2 [&_input]:border-red-600 [&_input]:text-black
+    [&_input]:bg-radial-[at_95%_25%] [&_input]:from-red-600 [&_input]:to-amber-600
+    [&_input]:transition [&_input]:duration-300 [&_input]:ease-in-out
+    [&_input]:hover:to-red-400 [&_input]:hover:from-red-200">
 
-    <br>
+    
+    <p class="relative text-center text-5xl top-3 mb-10"><strong>Shop</strong></p>
 
-    <div data-shop-target="pickaxeMenu" class="relative flex flex-row flex-wrap
-                *:w-[108.5px] *:border-2 bg-radial-[at_70%_30%] from-red-600 to-amber-700">
+    <div data-shop-target="pickaxeMenu" class="flex flex-row flex-wrap
+                *:w-[108.5px] *:border-2 bg-radial-[at_70%_30%] from-red-600 to-amber-600">
     </div>
+    
+    <div class="flex flex-col gap-10 mt-8 items-center">
+        <!-- <img src="<%= asset_path('bookshelf.png') %>" alt="Bookshelf" class="absolute w-full h-fit"> -->
 
-    <p data-shop-target="fortuneText"></p>
-    <p data-shop-target="efficiencyText"></p>
+        <div class="text-center pl-6 pr-6 w-full">
+            <div class="flex flex-col relative float-left">
+                <label for="buyEfficiency" data-shop-target="efficiencyText"></label>
+                <input type="button" name="buyEfficiency" value="Upgrade Efficiency" data-shop-target="efficiencyPrice" data-action="click->shop#clickE">
+            </div>
+
+            <div class="flex flex-col relative float-right">
+                <label for="buyFortune" data-shop-target="fortuneText"></label>
+                <input type="button" name="buyFortune" value="Upgrade Fortune" data-shop-target="fortunePrice" data-action="click->shop#clickF">
+            </div>
+        </div>
+        
+        <img src="<%= asset_path('enchanting.png') %>" alt="Enchanting Table" class="h-[250px] w-fit z-10">
+    </div>
 </div>
 
 <div data-controller="mine" class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]">
@@ -52,5 +71,3 @@
         action: "mousedown->mine#mine mouseenter->mine#hover mouseleave->mine#unhover" } %>
 
 </div>
-
-<!-- <a href="login.html">Login Page</a> -->

@@ -34,7 +34,7 @@ export default class extends Controller {
     calcSpeed() {
         let spd = 1;
         spd = 1 + [0, 5, 7, 10, 15, 23, 30, 50].at(getPick()) / 7.5;
-        spd *= 1 + 0.1 * getEfficiency();
+        spd *= 1 + 0.15 * getEfficiency();
         this.speed = spd;
     }
 

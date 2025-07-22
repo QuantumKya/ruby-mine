@@ -3,7 +3,7 @@ import * as stats from "stats_helper";
 
 // Connects to data-controller="shop"
 export default class extends Controller {
-    static targets = ["pickaxeMenu", "fortuneText", "efficiencyText"];
+    static targets = ["pickaxeMenu", "fortuneText", "fortunePrice", "efficiencyText", "efficiencyPrice"];
 
     pickPrices = [0, 10, 20, 40, 65, 100, 185, 300];
 
@@ -13,11 +13,18 @@ export default class extends Controller {
         this.initShop();
     }
 
+    updatePrices() {
+        this.efficiencyTextTarget.innerHTML = `<strong>Efficiency ${stats.romanize(stats.getEfficiency())}</strong>`;
+        this.efficiencyPriceTarget.value = `Upgrade - ${Math.floor(Math.pow(1.15, stats.getEfficiency()) * 5)} Rubies`;
+
+        this.fortuneTextTarget.innerHTML = `<strong>Fortune ${stats.romanize(stats.getFortune())}</strong>`;
+        this.fortunePriceTarget.value = `Upgrade - ${Math.floor(35 + Math.pow(1.15, stats.getFortune()) * 5)} Rubies`;
+    }
+
     initShop() {
         stats.init()
         .then(response => {
-            this.fortuneTextTarget.innerHTML = `Fortune ${stats.romanize(stats.getFortune())}`;
-            this.efficiencyTextTarget.innerHTML = `Efficiency ${stats.romanize(stats.getEfficiency())}`;
+            this.updatePrices();
 
             this.pickaxeMenuTarget.innerHTML = '';
 
@@ -77,18 +84,26 @@ export default class extends Controller {
         });
     }
 
-    clickF() {
-        stats.buyFortune()
-        .then(response => this.fortuneTextTarget.innerHTML = `Fortune ${stats.romanize(stats.getFortune())}`);
+    clickE() {
+        const price = Math.floor(Math.pow(1.15, stats.getEfficiency()) * 5);
+        if (stats.getRubies() < price) return;
+
+        stats.subRubies(price);
+        stats.buyEfficiency()
+        .then(response => this.updatePrices());
     }
 
-    clickE() {
-        stats.buyEfficiency()
-        .then(response => this.efficiencyTextTarget.innerHTML = `Efficiency ${stats.romanize(stats.getEfficiency())}`);
+    clickF() {
+        const price = Math.floor(35 + Math.pow(1.15, stats.getFortune()) * 5);
+        if (stats.getRubies() < price) return;
+
+        stats.subRubies(price);
+        stats.buyFortune()
+        .then(response => this.updatePrices());
     }
 
     buyPickaxe(level) {
-        stats.addRubies(-this.pickPrices[level]);
+        stats.subRubies(this.pickPrices[level]);
         stats.unlockPickaxe(level)
         .then(response => {
             stats.setPick(level);

@@ -12,19 +12,19 @@ export const init = async () => {
     .catch(error => console.error("Error while fetching initial player data: ", error));
 };
 
-export const getRubies = () => localStorage.getItem("totalRubies");
+export const getRubies = () => parseInt(localStorage.getItem("totalRubies"));
 export const getPickaxes = () => {
-    const binArr = localStorage.getItem("pickaxesUnlocked").toString(2).split('');
+    const binArr = parseInt(localStorage.getItem("pickaxesUnlocked")).toString(2).split('');
     return binArr.map(char => char === '1').reverse();
 }
 
 export const setPID = (id) => localStorage.setItem('player_id', id);
-export const getPID = () => localStorage.getItem('player_id');
+export const getPID = () => parseInt(localStorage.getItem('player_id'));
 
-export const getFortune = () => localStorage.getItem("fortune");
-export const getEfficiency = () => localStorage.getItem("efficiency");
+export const getFortune = () => parseInt(localStorage.getItem("fortune"));
+export const getEfficiency = () => parseInt(localStorage.getItem("efficiency"));
 
-export const getPick = () => localStorage.getItem("selectedPickaxe");
+export const getPick = () => parseInt(localStorage.getItem("selectedPickaxe"));
 export const setPick = (pick) => localStorage.setItem("selectedPickaxe", pick);
 
 
@@ -41,8 +41,10 @@ export const addRubies = async (dr) => {
     .catch(error => console.error("Error while updating ruby count: ", error));
 };
 
+export const subRubies = async (dr) => addRubies(-dr);
+
 export const unlockPickaxe = async (level) => {
-    localStorage.setItem("pickaxesUnlocked", localStorage.getItem("pickaxesUnlocked") + Math.pow(2, level));
+    localStorage.setItem("pickaxesUnlocked", parseInt(localStorage.getItem("pickaxesUnlocked")) + Math.pow(2, level));
     return fetch(`api/players/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
@@ -80,7 +82,7 @@ export const buyFortune = async () => {
 };
 
 export const buyEfficiency = async () => {
-    localStorage.getItem("efficiency", getEfficiency() + 1);
+    localStorage.setItem("efficiency", getEfficiency() + 1);
     return fetch(`api/players/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
