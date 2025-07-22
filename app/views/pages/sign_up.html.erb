@@ -1,9 +1,10 @@
 <div class="w-[100vw] h-[100vh] flex items-center justify-center absolute top-0 left-0">
 
-    <form class="flex flex-col gap-2 bg-neutral-400 p-5 w-[30vw]
+    <form data-controller="login" class="flex flex-col gap-2 bg-neutral-400 p-5 w-[30vw]
                 [&_input]:relative [&_input]:p-2 [&_input]:pl-4 [&_input]:pr-4 [&_input]:rounded-full [&_input]:border-2 [&_input]:border-gray-400 [&_input]:text-black [&_input]:bg-radial-[at_95%_25%] [&_input]:to-red-500 [&_input]:from-red-300
         [&_input]:focus:outline-none [&_input]:focus:border-red-200 [&_input]:focus:bg-red-300 [&_input]:transition [&_input]:duration-300 [&_input]:ease-in-out
-        [&_input]:focus:bg-radial-[at_95%_25%] [&_input]:focus:to-red-300 [&_input]:focus:from-red-400">
+        [&_input]:focus:bg-radial-[at_95%_25%] [&_input]:focus:to-red-300 [&_input]:focus:from-red-400
+        [&_input]:hover:bg-radial-[at_95%_25%] [&_input]:hover:to-red-400 [&_input]:hover:from-red-200">
 
         <p class="text-center text-red-700">Ruby Mine -- Sign Up</p>
 
@@ -11,10 +12,14 @@
 
         <a href="/login" class="underline text-center text-sm">Played before? Log in here.</a>
 
-        <input type="text" name="username" id="username" placeholder="Username">
+        <input type="text" name="username" id="username" placeholder="Username" data-login-target="uname">
+        <input type="password" name="password" id="password" placeholder="Password" data-login-target="pword">
+        <input type="password" name="password2" id="pw2" placeholder="Repeat Password">
 
-        <input type="button" value="Sign Up"
-        class="absolute w-[150px] left-[50%] -translate-x-[50%] hover:bg-radial-[at_95%_25%] hover:to-red-400 hover:from-red-200">
+        <p class="text-red-600 text-sm text-center hidden" data-login-target="errText"></p>
+
+        <input type="submit" value="Sign Up" data-action="click->login#signup"
+        class="absolute w-[150px] left-[50%] -translate-x-[50%]">
 
     </form>
 

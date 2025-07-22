@@ -16,6 +16,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_07_20_014645) do
 
   create_table "players", force: :cascade do |t|
     t.string "name"
+    t.string "pword"
     t.integer "rubies", default: 0
     t.integer "pickaxe", default: 1
     t.integer "fortune", default: 0

@@ -6,6 +6,11 @@ export default class extends Controller {
     static targets = ["pickaxe", "breakImg", "rubyCount"];
 
     connect() {
+        if (localStorage.length <= 0) {
+            window.alert("You haven't logged in yet!\nRedirecting to login page.");
+            window.location.href = '/';
+        }
+
         this.mining = false;
         this.durability = 8;
         this.speed = 1;
@@ -19,7 +24,7 @@ export default class extends Controller {
     }
 
     initMine() {
-        init(getPID())
+        init()
         .then(response => {
             this.updateRubyCount();
             this.updatePickaxe();

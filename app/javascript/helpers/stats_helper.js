@@ -1,62 +1,56 @@
-let totalRubies = 0;
 
-let pickaxesUnlocked = 0;
-let selectedPickaxe = 0;
-let fortune = 0;
-let efficiency = 0;
-
-export const init = async (playerID) => {
-    setPID(playerID);
-    return fetch(`api/players/${playerID}`)
+export const init = async () => {
+    return fetch(`api/players/${getPID()}`)
     .then(response => response.json())
     .then(data => {
-        totalRubies = data.rubies;
-        pickaxesUnlocked = data.pickaxe;
-        fortune = data.fortune;
-        efficiency = data.efficiency;
+        localStorage.setItem("totalRubies", data.rubies);
+        localStorage.setItem("pickaxesUnlocked", data.pickaxe);
+        localStorage.setItem("fortune", data.fortune);
+        localStorage.setItem("efficiency", data.efficiency);
+        localStorage.setItem("selectedPickaxe", 0);
     })
     .catch(error => console.error("Error while fetching initial player data: ", error));
 };
 
-export const getRubies = () => totalRubies;
+export const getRubies = () => localStorage.getItem("totalRubies");
 export const getPickaxes = () => {
-    const binArr = pickaxesUnlocked.toString(2).split('');
+    const binArr = localStorage.getItem("pickaxesUnlocked").toString(2).split('');
     return binArr.map(char => char === '1').reverse();
 }
 
 export const setPID = (id) => localStorage.setItem('player_id', id);
 export const getPID = () => localStorage.getItem('player_id');
 
-export const getFortune = () => fortune;
-export const getEfficiency = () => efficiency;
+export const getFortune = () => localStorage.getItem("fortune");
+export const getEfficiency = () => localStorage.getItem("efficiency");
 
-export const getPick = () => selectedPickaxe;
-export const setPick = (pick) => { selectedPickaxe = pick; };
+export const getPick = () => localStorage.getItem("selectedPickaxe");
+export const setPick = (pick) => localStorage.setItem("selectedPickaxe", pick);
 
 
 export const addRubies = async (dr) => {
-    totalRubies += dr;
-    return fetch(`api/players/${pID}`, {
+    localStorage.setItem("totalRubies", getRubies() + dr);
+    return fetch(`api/players/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json'},
         body: JSON.stringify({
-            player: { rubies: totalRubies }
+            player: { rubies: getRubies() }
         })
     })
-    .then(response => window.dispatchEvent(new CustomEvent('rubies_updated', { detail: { rubyCount: totalRubies }})))
+    .then(response => window.dispatchEvent(new CustomEvent('rubies_updated')))
     .catch(error => console.error("Error while updating ruby count: ", error));
 };
 
 export const unlockPickaxe = async (level) => {
-    pickaxesUnlocked += Math.pow(2, level);
-    return fetch(`api/players/${pID}`, {
+    localStorage.setItem("pickaxesUnlocked", localStorage.getItem("pickaxesUnlocked") + Math.pow(2, level));
+    return fetch(`api/players/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-            player: { pickaxe: pickaxesUnlocked }
+            player: { pickaxe: localStorage.getItem("pickaxesUnlocked") }
         })
     })
-    .then(response => window.dispatchEvent(new CustomEvent('pickaxe_updated', { detail: { rubyCount: totalRubies }})))
+    .then(response => window.dispatchEvent(new CustomEvent('pickaxe_updated')))
     .catch(error => console.error("Error while updating pickaxes: ", error));
 };
 
@@ -74,24 +68,24 @@ export const romanize = (num) => {
 }
 
 export const buyFortune = async () => {
-    fortune++;
-    return fetch(`api/players/${pID}`, {
+    localStorage.setItem("fortune", getFortune() + 1);
+    return fetch(`api/players/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-            player: { fortune: fortune }
+            player: { fortune: getFortune() }
         })
     })
     .catch(error => console.error("Error while buying Fortune: ", error));
 };
 
 export const buyEfficiency = async () => {
-    efficiency++;
-    return fetch(`api/players/${pID}`, {
+    localStorage.getItem("efficiency", getEfficiency() + 1);
+    return fetch(`api/players/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-            player: { efficiency: efficiency }
+            player: { efficiency: getEfficiency() }
         })
     })
     .catch(error => console.error("Error while buying Fortune: ", error));

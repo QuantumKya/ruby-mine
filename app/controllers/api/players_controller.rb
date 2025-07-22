@@ -14,7 +14,7 @@ class Api::PlayersController < ApplicationController
         player = Player.find_by(name: params[:name])
 
         if player
-            render json: { status: 'found', id: player.id, name: player.name }
+            render json: { status: 'found', id: player.id, name: player.name, pword: player.pword }
         else
             render json: { status: 'not_found', error: 'Player with given name not found' }, status: :not_found
         end
@@ -23,7 +23,7 @@ class Api::PlayersController < ApplicationController
     def create
         player = Player.new(player_params)
         if player.save
-            render json: player, status: :created
+            render json: { status: 'created', id: player.id, name: player.name }, status: :created
         else
             render json: { errors: player.errors.full_messages }, status: :unprocessable_entity
         end
@@ -41,6 +41,6 @@ class Api::PlayersController < ApplicationController
     private
 
     def player_params
-        params.require(:player).permit(:name, :rubies, :pickaxe, :fortune, :efficiency)
+        params.require(:player).permit(:name, :pword, :rubies, :pickaxe, :fortune, :efficiency)
     end
 end

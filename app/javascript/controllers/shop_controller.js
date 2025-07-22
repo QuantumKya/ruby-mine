@@ -14,7 +14,7 @@ export default class extends Controller {
     }
 
     initShop() {
-        stats.init(stats.getPID())
+        stats.init()
         .then(response => {
             this.fortuneTextTarget.innerHTML = `Fortune ${stats.romanize(stats.getFortune())}`;
             this.efficiencyTextTarget.innerHTML = `Efficiency ${stats.romanize(stats.getEfficiency())}`;
