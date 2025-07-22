@@ -34,7 +34,7 @@ export default class extends Controller {
     calcSpeed() {
         let spd = 1;
         spd = 1 + [0, 5, 7, 10, 15, 23, 30, 50].at(getPick()) / 7.5;
-        spd *= 1 + 0.15 * getEfficiency();
+        spd *= 1 + 0.135 * getEfficiency();
         this.speed = spd;
     }
 
@@ -60,7 +60,7 @@ export default class extends Controller {
             this.durability -= (this.speed >= 30) ? Math.floor(this.speed / 30) : 1;
             this.breakImgTarget.style.opacity = '0%';
             if (this.durability <= 0) {
-                addRubies(Math.floor(-this.durability/8) + 1)
+                addRubies((Math.floor(-this.durability/8) + 1) * (getFortune() + 1))
                 .then(response => {
                     this.durability += 8 * Math.floor(-this.durability/8) + 8;
                     console.log("Got a ruby!!!");

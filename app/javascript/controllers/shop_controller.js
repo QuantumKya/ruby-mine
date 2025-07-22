@@ -15,10 +15,10 @@ export default class extends Controller {
 
     updatePrices() {
         this.efficiencyTextTarget.innerHTML = `<strong>Efficiency ${stats.romanize(stats.getEfficiency())}</strong>`;
-        this.efficiencyPriceTarget.value = `Upgrade - ${Math.floor(Math.pow(1.15, stats.getEfficiency()) * 5)} Rubies`;
+        this.efficiencyPriceTarget.innerHTML = `Upgrade - ${Math.floor(Math.pow(1.15, stats.getEfficiency()) * 5)} <img src=${window.rubyImg} alt="rubies" class="w-[20px] inline-block align-middle">`;
 
         this.fortuneTextTarget.innerHTML = `<strong>Fortune ${stats.romanize(stats.getFortune())}</strong>`;
-        this.fortunePriceTarget.value = `Upgrade - ${Math.floor(35 + Math.pow(1.15, stats.getFortune()) * 5)} Rubies`;
+        this.fortunePriceTarget.innerHTML = `Upgrade - ${Math.floor(35 + Math.pow(1.15, stats.getFortune()) * 5)} <img src=${window.rubyImg} alt="rubies" class="w-[20px] inline-block align-middle">`;
     }
 
     initShop() {
