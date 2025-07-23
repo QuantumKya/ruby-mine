@@ -15,10 +15,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: rohanvf
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  host: hackclub.app
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  port: 5432
 
 
 development:
@@ -82,9 +81,9 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: ruby_mine_production
-    username: ruby_mine
-    password: <%= ENV["RUBY_MINE_DATABASE_PASSWORD"] %>
+    database: ruby_mine
+    username: rvf
+    password: <%= ENV['DATABASE_PASSWORD'] %>
   cache:
     <<: *primary_production
     database: ruby_mine_production_cache

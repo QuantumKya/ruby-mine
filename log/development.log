@@ -35841,3 +35841,78 @@ Processing by Api::PlayersController#show as */*
 Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/game" for 127.0.0.1 at 2025-07-23 17:41:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (39.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='RubyMine'*/[0m
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 454.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 616.7ms | GC: 0.0ms)
+Completed 200 OK in 707ms (Views: 635.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/tailwind-34e1024b.css" for 127.0.0.1 at 2025-07-23 17:41:55 -0500
+Started GET "/assets/application-8b441ae0.css" for 127.0.0.1 at 2025-07-23 17:41:55 -0500
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-07-23 17:41:55 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 17:41:55 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 17:41:55 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (20.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  [1m[36mPlayer Load (20.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 1108ms (Views: 0.7ms | ActiveRecord: 671.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Completed 200 OK in 1074ms (Views: 0.4ms | ActiveRecord: 222.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/pickaxe/wooden-75f5b5a3.png" for 127.0.0.1 at 2025-07-23 17:41:57 -0500
+Started GET "/assets/pickaxe/stone-6a003b5c.png" for 127.0.0.1 at 2025-07-23 17:41:57 -0500
+Started GET "/assets/pickaxe/golden-f5a99c55.png" for 127.0.0.1 at 2025-07-23 17:41:57 -0500
+Started GET "/" for 127.0.0.1 at 2025-07-23 17:42:01 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 19.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | GC: 0.0ms)
+Completed 200 OK in 68ms (Views: 31.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/ruby-mine-icon-b726dd76.png" for 127.0.0.1 at 2025-07-23 17:42:01 -0500
+Started GET "/api/players/lookup?name=TestPlayer" for 127.0.0.1 at 2025-07-23 17:42:09 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "TestPlayer"}
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'TestPlayer' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 17:42:09 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 17:42:09 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 17:42:09 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 45ms (Views: 3.8ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mPlayer Load (0.2ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 52ms (Views: 6.7ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
