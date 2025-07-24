@@ -99,7 +99,7 @@ export default class extends Controller {
                 headers: { "Content-Type": 'application/json' },
                 body: JSON.stringify({
                     player: {
-                        name: username,
+                        name: encodeURIComponent(username),
                         pword: hash
                     }
                 })
