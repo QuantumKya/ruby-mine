@@ -15,7 +15,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: hackclub.app
+  username: rohanvf
+  host: localhost
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   port: 5432
 
@@ -84,6 +85,7 @@ production:
     database: ruby_mine
     username: rvf
     password: <%= ENV['DATABASE_PASSWORD'] %>
+    host: hackclub.app
   cache:
     <<: *primary_production
     database: ruby_mine_production_cache
