@@ -94,3 +94,15 @@ production:
     port: 5432
     username: rvf
     password: <%= ENV["DATABASE_PASSWORD"] %>
+  cache:
+    <<: *primary_production
+    database: rvf_ruby_mine
+    migrations_paths: db/cache_migrate
+  queue:
+    <<: *primary_production
+    database: rvf_ruby_mine
+    migrations_paths: db/queue_migrate
+  cable:
+    <<: *primary_production
+    database: rvf_ruby_mine
+    migrations_paths: db/cable_migrate
