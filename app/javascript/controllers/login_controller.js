@@ -106,7 +106,7 @@ export default class extends Controller {
             })
             .then(response => response.json())
             .then(data => {
-                if (data.name === username) {
+                if (data.name === encodeURIComponent(username)) {
                     setPID(data.id);
                     window.location.href = '/game';
                 }
