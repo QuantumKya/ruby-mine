@@ -111,4 +111,8 @@ export default class extends Controller {
             this.updatePicks();
         });
     }
+
+    saveProgress() {
+        stats.saveText(document.getElementById('save-text'));
+    }
 }

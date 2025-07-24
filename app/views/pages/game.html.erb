@@ -45,7 +45,7 @@
         <div class="text-center w-[400px] ml-6 mr-6 mt-6 p-3 text-shadow-[0_0_5px_black] text-white">
             <div class="flex flex-col relative float-left">
                 <label for="buyEfficiency" data-shop-target="efficiencyText"></label>
-                <button type="button" name="buyEfficiency" value="Upgrade Efficiency" data-shop-target="efficiencyPrice" data-action="click->shop#clickE"
+                <button type="button" name="buyEfficiency" data-shop-target="efficiencyPrice" data-action="click->shop#clickE"
                     class="relative p-2 pl-4 pr-4 rounded-full border-2 border-red-600 text-white
                         bg-radial-[at_95%_25%] from-gray-600 to-neutral-500
                         transition duration-300 ease-in-out
@@ -54,7 +54,7 @@
 
             <div class="flex flex-col relative float-right">
                 <label for="buyFortune" data-shop-target="fortuneText"></label>
-                <button type="button" name="buyFortune" value="Upgrade Fortune" data-shop-target="fortunePrice" data-action="click->shop#clickF"
+                <button type="button" name="buyFortune" data-shop-target="fortunePrice" data-action="click->shop#clickF"
                     class="relative p-2 pl-4 pr-4 rounded-full border-2 border-red-600 text-white
                         bg-radial-[at_95%_25%] from-gray-600 to-neutral-500
                         transition duration-300 ease-in-out
@@ -64,6 +64,13 @@
         
         <img src="<%= asset_path('enchanting.png') %>" alt="Enchanting Table" class="h-[250px] w-fit z-10">
     </div>
+
+    <button type="button" name="buyEfficiency" data-action="click->shop#saveProgress"
+            class="absolute p-2 pl-4 pr-4 bottom-6 left-[50%] -translate-x-[50%] w-[300px] h-[60px] text-2xl rounded-full border-2 border-red-600 text-white
+                bg-radial-[at_95%_25%] from-gray-600 to-neutral-500
+                transition duration-300 ease-in-out
+                hover:to-red-400 hover:from-red-200 hover:text-black">Save Progress</button>
+    <p class="absolute w-full bottom-0 text-center text-gray-700"><strong>Game autosaves every minute.</strong></p>
 </div>
 
 <div data-controller="mine" class="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]">
@@ -77,3 +84,4 @@
         action: "mousedown->mine#mine mouseenter->mine#hover mouseleave->mine#unhover" } %>
 
 </div>
+<p id="save-text" class="absolute bottom-5 right-5 text-green-600 text-xl opacity-0 transition duration-200"></p>

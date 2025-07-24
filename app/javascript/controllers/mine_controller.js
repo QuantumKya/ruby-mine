@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus"
-import { getRubies, addRubies, getPick, init, getEfficiency, getFortune, getPID } from "stats_helper";
+import { getRubies, addRubies, getPick, init, getEfficiency, getFortune, getPID, saveText } from "stats_helper";
 
 // Connects to data-controller="mine"
 export default class extends Controller {
@@ -21,6 +21,8 @@ export default class extends Controller {
         window.addEventListener('rubies_updated', () => this.updateRubyCount());
 
         this.initMine();
+
+        setInterval(() => saveText(document.getElementById('save-text')), 60000);
     }
 
     initMine() {
@@ -76,7 +78,7 @@ export default class extends Controller {
             setTimeout(() => {
                 this.mining = false;
                 this.pickaxeTarget.style.transform = this.cssfmt(this.pickaxeTarget.matches(':hover') ? '-10' : '0');
-                this.pickaxeTarget.style.transition = `transform ${250 * 2/this.speed}ms ease-in`;
+                this.pickaxeTarget.style.transition = `transform ${125 * 2/this.speed}ms ease-in`;
             }, 350 / this.speed);
 
         }, 350 / this.speed);
