@@ -34,7 +34,7 @@ export default class extends Controller {
     calcSpeed() {
         let spd = 1;
         spd = 1 + [0, 5, 7, 10, 15, 23, 30, 50].at(getPick()) / 7.5;
-        spd *= 1 + 0.135 * getEfficiency();
+        spd *= 1 + 0.145 * getEfficiency();
         this.speed = spd;
     }
 
@@ -77,9 +77,9 @@ export default class extends Controller {
                 this.mining = false;
                 this.pickaxeTarget.style.transform = this.cssfmt(this.pickaxeTarget.matches(':hover') ? '-10' : '0');
                 this.pickaxeTarget.style.transition = `transform ${250 * 2/this.speed}ms ease-in`;
-            }, 500 / this.speed);
+            }, 350 / this.speed);
 
-        }, 500 / this.speed);
+        }, 350 / this.speed);
     }
 
     hover(event) {

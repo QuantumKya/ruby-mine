@@ -40267,3 +40267,544 @@ Migrating to CreatePlayers (20250720014645)
   [1m[36mTRANSACTION (85.7ms)[0m  [1m[35mCOMMIT /*application='RubyMine'*/[0m
   [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(4371096384948836025) /*application='RubyMine'*/[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='RubyMine'*/[0m
+Started GET "/" for 127.0.0.1 at 2025-07-23 21:28:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='RubyMine'*/[0m
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 4.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 17.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/tailwind-6fae4ae5.css" for 127.0.0.1 at 2025-07-23 21:28:11 -0500
+Started GET "/api/players/lookup?name=TestPlayer" for 127.0.0.1 at 2025-07-23 21:28:21 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "TestPlayer"}
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'TestPlayer' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 404 Not Found in 38ms (Views: 0.2ms | ActiveRecord: 4.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-23 21:28:34 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 5.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2025-07-23 21:28:35 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2025-07-23 21:28:36 -0500
+Processing by PagesController#sign_up as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/sign_up.html.erb within layouts/application
+  Rendered pages/sign_up.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 3.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=TestPlayer" for 127.0.0.1 at 2025-07-23 21:28:44 -0500
+Started POST "/api/players" for 127.0.0.1 at 2025-07-23 21:28:44 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "TestPlayer"}
+Processing by Api::PlayersController#create as */*
+  Parameters: {"player" => {"name" => "TestPlayer", "pword" => "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"}}
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'TestPlayer' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 404 Not Found in 55ms (Views: 0.2ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Can't verify CSRF token authenticity.
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='create',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:25:in 'Api::PlayersController#create'
+  [1m[36mPlayer Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' LIMIT 1 /*action='create',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:25:in 'Api::PlayersController#create'
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("name", "pword", "rubies", "pickaxe", "fortune", "efficiency", "created_at", "updated_at") VALUES ('TestPlayer', 'be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5', 0, 1, 0, 0, '2025-07-24 02:28:44.226019', '2025-07-24 02:28:44.226019') RETURNING "id" /*action='create',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:25:in 'Api::PlayersController#create'
+  [1m[36mTRANSACTION (109.0ms)[0m  [1m[35mCOMMIT /*action='create',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:25:in 'Api::PlayersController#create'
+Completed 201 Created in 200ms (Views: 1.4ms | ActiveRecord: 112.2ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 21:28:44 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 9.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 10.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:28:44 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.9ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 17ms (Views: 3.7ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:28:44 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/break/break1-16700346.png" for 127.0.0.1 at 2025-07-23 21:28:48 -0500
+Started GET "/assets/break/break3-e54a9807.png" for 127.0.0.1 at 2025-07-23 21:28:50 -0500
+Started GET "/assets/break/break4-a1c39ae6.png" for 127.0.0.1 at 2025-07-23 21:28:51 -0500
+Started GET "/assets/break/break6-acf6f4bc.png" for 127.0.0.1 at 2025-07-23 21:28:54 -0500
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:28:55 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 1}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.6ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 1, "updated_at" = '2025-07-24 02:28:55.253340' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (545.2ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 591ms (Views: 2.4ms | ActiveRecord: 548.5ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:29:04 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 2}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.3ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 2, "updated_at" = '2025-07-24 02:29:04.151422' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (48.8ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 82ms (Views: 8.3ms | ActiveRecord: 50.8ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:29:13 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 3}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 3, "updated_at" = '2025-07-24 02:29:13.263806' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (144.4ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 162ms (Views: 2.9ms | ActiveRecord: 146.2ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:31:03 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-07-23 21:31:14 -0500
+Processing by PagesController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/login.html.erb within layouts/application
+  Rendered pages/login.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/lookup?name=TestPlayer" for 127.0.0.1 at 2025-07-23 21:31:25 -0500
+Processing by Api::PlayersController#lookup as */*
+  Parameters: {"name" => "TestPlayer"}
+  [1m[36mPlayer Load (0.6ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."name" = 'TestPlayer' LIMIT 1 /*action='lookup',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:14:in 'Api::PlayersController#lookup'
+Completed 200 OK in 16ms (Views: 3.6ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 21:31:25 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:31:25 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:31:25 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 36ms (Views: 0.5ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 39ms (Views: 0.2ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 21:31:29 -0500
+Processing by PagesController#game as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 21:32:36 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.5ms)
+Completed 200 OK in 41ms (Views: 9.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 15.5ms)
+
+
+Started GET "/assets/controllers/mine_controller-d614fb42.js" for 127.0.0.1 at 2025-07-23 21:32:36 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:32:36 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 11ms (Views: 0.9ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:32:36 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 21:32:46 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | GC: 0.2ms)
+Completed 200 OK in 16ms (Views: 6.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/assets/controllers/mine_controller-6a8298b6.js" for 127.0.0.1 at 2025-07-23 21:32:46 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:32:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:32:46 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:32:52 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 4}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 4, "updated_at" = '2025-07-24 02:32:52.618166' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (32.9ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 55ms (Views: 2.0ms | ActiveRecord: 34.6ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:32:59 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 5}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 5, "updated_at" = '2025-07-24 02:32:59.395523' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (43.0ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 62ms (Views: 0.2ms | ActiveRecord: 45.0ms (3 queries, 0 cached) | GC: 0.2ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:00 -0500
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:00 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"efficiency" => 1}, "id" => "1"}
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 0}, "id" => "1"}
+Can't verify CSRF token authenticity.
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (8.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "efficiency" = 1, "updated_at" = '2025-07-24 02:33:00.235915' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Load (11.9ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (20.5ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 86ms (Views: 0.1ms | ActiveRecord: 29.9ms (3 queries, 0 cached) | GC: 0.4ms)
+
+
+  [1m[36mPlayer Update (10.0ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 0, "updated_at" = '2025-07-24 02:33:00.248414' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (20.6ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 110ms (Views: 8.3ms | ActiveRecord: 45.0ms (3 queries, 0 cached) | GC: 0.4ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:06 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 1}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.4ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 1, "updated_at" = '2025-07-24 02:33:06.337714' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (134.0ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 166ms (Views: 1.7ms | ActiveRecord: 136.8ms (3 queries, 0 cached) | GC: 8.2ms)
+
+
+Started GET "/game" for 127.0.0.1 at 2025-07-23 21:33:12 -0500
+Processing by PagesController#game as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/game.html.erb within layouts/application
+  Rendered pages/game.html.erb within layouts/application (Duration: 1.3ms | GC: 0.7ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | GC: 2.7ms)
+Completed 200 OK in 33ms (Views: 10.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 14.1ms)
+
+
+Started GET "/assets/controllers/mine_controller-8f47ee1c.js" for 127.0.0.1 at 2025-07-23 21:33:12 -0500
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:12 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:12 -0500
+Processing by Api::PlayersController#show as */*
+  Parameters: {"id" => "1"}
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='show',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:9:in 'Api::PlayersController#show'
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 1.3ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:17 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 2}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 2, "updated_at" = '2025-07-24 02:33:17.792344' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (74.2ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 93ms (Views: 0.2ms | ActiveRecord: 76.0ms (3 queries, 0 cached) | GC: 1.5ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:23 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 3}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.7ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 3, "updated_at" = '2025-07-24 02:33:23.333132' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (20.6ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 48ms (Views: 0.2ms | ActiveRecord: 22.2ms (3 queries, 0 cached) | GC: 0.5ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:28 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 4}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 4, "updated_at" = '2025-07-24 02:33:28.654087' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (582.3ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 605ms (Views: 0.3ms | ActiveRecord: 584.5ms (3 queries, 0 cached) | GC: 0.7ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:34 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 5}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.1ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 5, "updated_at" = '2025-07-24 02:33:34.318241' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (37.5ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 55ms (Views: 0.2ms | ActiveRecord: 38.9ms (3 queries, 0 cached) | GC: 0.4ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:36 -0500
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:36 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 0}, "id" => "1"}
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"efficiency" => 2}, "id" => "1"}
+Can't verify CSRF token authenticity.
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.8ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Load (3.0ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (4.4ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.5ms)[0m  [1m[33mUPDATE "players" SET "efficiency" = 2, "updated_at" = '2025-07-24 02:33:36.191827' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (36.4ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 76ms (Views: 0.2ms | ActiveRecord: 42.2ms (3 queries, 0 cached) | GC: 0.4ms)
+
+
+  [1m[36mPlayer Update (37.1ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 0, "updated_at" = '2025-07-24 02:33:36.193732' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (19.1ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 104ms (Views: 0.3ms | ActiveRecord: 62.3ms (3 queries, 0 cached) | GC: 0.4ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:40 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 1}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.3ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.3ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 1, "updated_at" = '2025-07-24 02:33:40.360818' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (41.8ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 64ms (Views: 1.8ms | ActiveRecord: 44.2ms (3 queries, 0 cached) | GC: 1.7ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:33:45 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 2}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.4ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.1ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 2, "updated_at" = '2025-07-24 02:33:45.588118' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (67.4ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 85ms (Views: 0.1ms | ActiveRecord: 68.7ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:50:42 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 3}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (21.7ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.5ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 3, "updated_at" = '2025-07-24 02:50:42.255419' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (76.9ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 119ms (Views: 0.1ms | ActiveRecord: 106.2ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/api/players/1" for 127.0.0.1 at 2025-07-23 21:50:47 -0500
+Processing by Api::PlayersController#update as */*
+  Parameters: {"player" => {"rubies" => 4}, "id" => "1"}
+Can't verify CSRF token authenticity.
+  [1m[36mPlayer Load (0.5ms)[0m  [1m[34mSELECT "players".* FROM "players" WHERE "players"."id" = 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:33:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "players" WHERE "players"."name" = 'TestPlayer' AND "players"."id" != 1 LIMIT 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mPlayer Update (0.2ms)[0m  [1m[33mUPDATE "players" SET "rubies" = 4, "updated_at" = '2025-07-24 02:50:47.595790' WHERE "players"."id" = 1 /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+  [1m[36mTRANSACTION (13.2ms)[0m  [1m[35mCOMMIT /*action='update',application='RubyMine',controller='players'*/[0m
+  ↳ app/controllers/api/players_controller.rb:34:in 'Api::PlayersController#update'
+Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 14.5ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
