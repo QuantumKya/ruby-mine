@@ -82,7 +82,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: ruby_mine
+    database: rvf_ruby_mine
     username: rvf
     password: <%= ENV['DATABASE_PASSWORD'] %>
     host: hackclub.app
