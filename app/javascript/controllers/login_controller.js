@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus"
-import { setPID } from 'stats_helper';
+import { setPID, apiPath } from 'stats_helper';
 
 // Connects to data-controller="login"
 export default class extends Controller {
@@ -14,7 +14,7 @@ export default class extends Controller {
     }
 
     async encodePW(pw) {
-        const utf8pword = new TextEncoder().encode(password)
+        const utf8pword = new TextEncoder().encode(pw)
         const hashBuffer = await window.crypto.subtle.digest('SHA-256', utf8pword);
         const hashArr = Array.from(new Uint8Array(hashBuffer));
         return hashArr.map(byte => byte.toString(16).padStart(2, '0')).join('');
@@ -35,7 +35,7 @@ export default class extends Controller {
             return;
         }
 
-        fetch(`api/players/lookup?name=${encodeURIComponent(username)}`)
+        fetch(`${apiPath}/lookup?name=${encodeURIComponent(username)}`)
         .then(response => response.json())
         .then(data => {
             if (data.status === 'found') {
@@ -81,7 +81,7 @@ export default class extends Controller {
         }
 
         let check;
-        fetch(`api/players/lookup?name=${encodeURIComponent(username)}`)
+        fetch(`${apiPath}/lookup?name=${username}`)
         .then(response => response.json())
         .then(data => {
             check = (data.status === 'found');
@@ -94,19 +94,19 @@ export default class extends Controller {
 
         this.encodePW(password)
         .then(hash => {
-            fetch('api/players', {
+            fetch(`${apiPath}`, {
                 method: 'POST',
                 headers: { "Content-Type": 'application/json' },
                 body: JSON.stringify({
                     player: {
-                        name: encodeURIComponent(username),
+                        name: username,
                         pword: hash
                     }
                 })
             })
             .then(response => response.json())
             .then(data => {
-                if (data.name === encodeURIComponent(username)) {
+                if (data.name === username) {
                     setPID(data.id);
                     window.location.href = '/game';
                 }

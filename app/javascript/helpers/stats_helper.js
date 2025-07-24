@@ -1,6 +1,10 @@
 
+export const apiPath = window.location.hostname === "localhost"
+    ? "/api/players"
+    : "https://ruby-mine.onrender.com/api/players";
+
 export const init = async () => {
-    return fetch(`api/players/${getPID()}`)
+    return fetch(`${apiPath}/${getPID()}`)
     .then(response => response.json())
     .then(data => {
         localStorage.setItem("totalRubies", data.rubies);
@@ -30,7 +34,7 @@ export const setPick = (pick) => localStorage.setItem("selectedPickaxe", pick);
 
 export const addRubies = async (dr) => {
     localStorage.setItem("totalRubies", getRubies() + dr);
-    return fetch(`api/players/${getPID()}`, {
+    return fetch(`${apiPath}/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -45,7 +49,7 @@ export const subRubies = async (dr) => addRubies(-dr);
 
 export const unlockPickaxe = async (level) => {
     localStorage.setItem("pickaxesUnlocked", parseInt(localStorage.getItem("pickaxesUnlocked")) + Math.pow(2, level));
-    return fetch(`api/players/${getPID()}`, {
+    return fetch(`${apiPath}/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -71,7 +75,7 @@ export const romanize = (num) => {
 
 export const buyFortune = async () => {
     localStorage.setItem("fortune", getFortune() + 1);
-    return fetch(`api/players/${getPID()}`, {
+    return fetch(`${apiPath}/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -83,7 +87,7 @@ export const buyFortune = async () => {
 
 export const buyEfficiency = async () => {
     localStorage.setItem("efficiency", getEfficiency() + 1);
-    return fetch(`api/players/${getPID()}`, {
+    return fetch(`${apiPath}/${getPID()}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
