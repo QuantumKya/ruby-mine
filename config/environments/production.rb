@@ -2,7 +2,7 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
 
-  config.hosts << "yourapp.onrender.com"
+  config.hosts << "ruby-mine.onrender.com"
   config.hosts << "ruby.quantumkya.dev"
 
   # Settings specified here will take precedence over those in config/application.rb.
